@@ -1,0 +1,61 @@
+.flex {
+  display: flex;
+}
+
+.flex-gap--24px {
+  gap: 24px;
+}
+
+.flex-gap--40px {
+  gap: 24px;
+}
+
+.margin-right--16px {
+  margin-right: 16px;
+}
+
+.margin-right--40px {
+  margin-right: 40px;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.font-size--14px {
+  font-size: 14px;
+}
+
+.font-weight--600 {
+  font-weight: 600;
+}
+
+.font-weight--700 {
+  font-weight: 700;
+}
+
+.btn-default {
+  font-size: 14px;
+  cursor: pointer;
+  padding: 7px 16px;
+  border: 1px solid #000000de;
+  border-radius: 50px;
+  color: #000000de;
+  background-color: #fff;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.btn-default:hover {
+  background-color: #0000001a;
+}
+
+.btn-default--black {
+  background-color: #000000;
+  color: #fff !important;
+}
+
+.btn-default--black:hover {
+  background-color: #000000b3;
+}
